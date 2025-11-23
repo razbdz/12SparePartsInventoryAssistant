@@ -15,7 +15,6 @@ class Program
 
          
             if (userInput == "Do you actually have any parts?" ||
-                userInput == "Do you actualy have any parts?" || 
                 userInput == "Is there anything in stock at all?")
             { Console.WriteLine($"We have {inventory.Length} part(s)!");
                 foreach (string item in inventory)
